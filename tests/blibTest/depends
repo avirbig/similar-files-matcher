@@ -1,0 +1,7 @@
+test2.o: test2.cpp ../../inc/folderScan.hpp ../../inc/blibrary.hpp \
+ ../../inc/csvReader.hpp ../../../include/overload.hpp
+folderScan.o: ../../imp/folderScan.cpp ../../inc/folderScan.hpp
+csvReader.o: ../../imp/csvReader.cpp ../../inc/csvReader.hpp
+blibrary.o: ../../imp/blibrary.cpp ../../inc/csvReader.hpp \
+ ../../inc/folderScan.hpp ../../inc/blibrary.hpp \
+ ../../../include/overload.hpp
